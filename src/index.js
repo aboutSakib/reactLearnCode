@@ -1,4 +1,5 @@
 import ReactDOM from "react-dom";
+import App from "./App";
 import TimeClass from "./TimeClass";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
@@ -15,20 +16,12 @@ import reportWebVitals from "./reportWebVitals";
 // }
 
 // Rendering Functional Component
-// ReactDOM.render(
-//   <Time name="sakib ahmed" age="20">
-//     hello guys
-//   </Time>,
-//   document.getElementById("root")
-// );
+// ReactDOM.render(<Time />, document.getElementById("root"));
 
 // Class Component
 let obj = new TimeClass();
 
 // Rendering Class Component
-ReactDOM.render(
-  <TimeClass name="sakib ahmed" />,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
 
 reportWebVitals();

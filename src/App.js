@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
-      <h2>hello </h2>
+      <Form></Form>
+      {/* <TimeClass name={[1, 2, 3, 4, 5, 6]} />
+      <Time></Time> */}
     </div>
   );
 }
